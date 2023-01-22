@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/*--------------------------------------- CARTWIDGET ---------------------------------------*/
+
+#lblCartCount {
+  font-size: 12px;
+  background: #C06B67;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+.badge {
+padding-left: 9px;
+padding-right: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+}
+/*--------------------------------------- H1 ---------------------------------------*/
+
+@font-face {
+  font-family: script-font;
+  src: url(./fonts/NothingYouCouldDo-Regular.ttf);
+}
+.greeting {
+  color:#C06B67;
+  font-family: script-font;
 }
