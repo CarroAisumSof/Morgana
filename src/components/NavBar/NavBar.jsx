@@ -1,4 +1,5 @@
 import icon from "./morgana-favicon.png";
+import { Link } from "react-router-dom";
 import {CartWidget} from "../CartWidget"
 
 const NavBar = () => {
@@ -11,12 +12,24 @@ const NavBar = () => {
                 <svg className="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"></svg>
                 </a>
                 <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="../Apps.js" className="nav-link px-2 link-dark">Potions</a></li>
-                    <li><a href="../Apps.js" className="nav-link px-2 link-dark">Amulets</a></li>
-                    <li><a href="../Apps.js" className="nav-link px-2 link-dark">Tools</a></li>
-                    <li><a href="../Apps.js" className="nav-link px-2 link-dark">Weapons</a></li>
-                    <li><a href="../Apps.js" className="nav-link px-2 link-dark">Protection</a></li>
-                    <li><a href="../Apps.js" className="nav-link px-2 link-secondary">Companions</a></li>
+                    <li>
+                        <Link to="/category/potions" className="nav-link px-2 link-dark">Potions</Link>
+                    </li>
+                    <li>
+                        <Link to="/category/amulets" className="nav-link px-2 link-dark">Amulets</Link>                        
+                    </li>
+                    <li>
+                        <Link to="/category/tools" className="nav-link px-2 link-dark">Tools</Link>                        
+                    </li>                    
+                    <li>
+                        <Link to="/category/weapons" className="nav-link px-2 link-dark">Weapons</Link>                        
+                    </li>
+                    <li>
+                        <Link to="/category/protection" className="nav-link px-2 link-dark">Amulets</Link>                        
+                    </li>
+                    <li>
+                        <Link to="/category/companions" className="nav-link px-2 link-secondary">Companions</Link>                        
+                    </li>
                 </ul>
                 <CartWidget/>
                 </div>
