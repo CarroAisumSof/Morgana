@@ -1,5 +1,3 @@
-
-
 .App {
   text-align: center;
 }
@@ -60,10 +58,10 @@ border-radius: 9px;
 /*--------------------------------------- H1 ---------------------------------------*/
 
 @font-face {
-  font-family: script-font;
-  src: url(./fonts/NothingYouCouldDo-Regular.ttf);
+  font-family: cardinal;
+  src: url(./fonts/Cardinal-Alternate.ttf);
 }
 .greeting {
   color:#C06B67;
-  font-family: script-font;
+  font-family: cardinal;
 }
