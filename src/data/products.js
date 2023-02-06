@@ -5,7 +5,7 @@ export const products = [
         thumbnail: "https://cdn.discordapp.com/attachments/827680977568399401/1071874497487052960/potions-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Potions",
+        categoria:"potions",
     },
 
     {
@@ -14,7 +14,7 @@ export const products = [
         thumbnail: "https://cdn.discordapp.com/attachments/827680977568399401/1071874497487052960/potions-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Potions",
+        categoria:"potions",
     },
 
 
@@ -24,7 +24,7 @@ export const products = [
         thumbnail: "https://cdn.discordapp.com/attachments/827680977568399401/1071874496887263263/amulets-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Amulets",
+        categoria:"amulets",
     },
     
     {
@@ -33,7 +33,7 @@ export const products = [
         thumbnail: "https://cdn.discordapp.com/attachments/827680977568399401/1071874496887263263/amulets-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Amulets",
+        categoria:"amulets",
     },
     
     {
@@ -42,7 +42,7 @@ export const products = [
         thumbnail:"https://cdn.discordapp.com/attachments/827680977568399401/1071874497969401906/tools-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Tools",
+        categoria:"tools",
     },
     
     {
@@ -51,7 +51,7 @@ export const products = [
         thumbnail:"https://cdn.discordapp.com/attachments/827680977568399401/1071874497969401906/tools-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Tools",
+        categoria:"tools",
     },
     
     {
@@ -60,7 +60,7 @@ export const products = [
         thumbnail:"https://cdn.discordapp.com/attachments/827680977568399401/1071874498195890186/weapons-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Weapons",
+        categoria:"weapons",
     },
     
     {
@@ -69,7 +69,7 @@ export const products = [
         thumbnail:"https://cdn.discordapp.com/attachments/827680977568399401/1071874498195890186/weapons-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Weapons",
+        categoria:"weapons",
     },
     
     {
@@ -78,7 +78,7 @@ export const products = [
         thumbnail:"https://cdn.discordapp.com/attachments/827680977568399401/1071874497747095703/protection-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Protection",
+        categoria:"protection",
     },
     
     {
@@ -87,7 +87,7 @@ export const products = [
         thumbnail:"https://cdn.discordapp.com/attachments/827680977568399401/1071874497747095703/protection-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Protection",
+        categoria:"protection",
     },
     
     {
@@ -96,7 +96,7 @@ export const products = [
         thumbnail:"https://cdn.discordapp.com/attachments/827680977568399401/1071874497268953228/compations-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Companions",
+        categoria:"companions",
     },
     
     {
@@ -105,6 +105,6 @@ export const products = [
         thumbnail:"https://cdn.discordapp.com/attachments/827680977568399401/1071874497268953228/compations-placeholder.png",
         detalle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         precio: 1500,
-        categoria:"Companions",
+        categoria:"companions",
     },
 ]

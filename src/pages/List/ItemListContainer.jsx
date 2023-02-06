@@ -1,14 +1,30 @@
-import { products } from "../../data/products";
 import { Link } from "react-router-dom";
-import userEvent from "@testing-library/user-event";
+import { useParams } from "react-router-dom";
+import { useState } from "react";
+import { useEffect } from "react";
+import { products } from "../../data/products";
+
 
 export const ItemListContainer = () => {
+    
+    let {catId} = useParams(); 
+    console.log(catId)
+
+
+    
+    let newArray = catId === undefined ? products : products.filter(prod => {return prod.categoria === catId})
+
+    
+    
+    console.log (newArray)
+
+    
     return (
         <>
-        <div className="row m-5">   
-                {products.map(product => {
+        <div className="row m-5">  
+                {newArray.map(product => {
                     return (
-                            <div className="col-12 col-md-6 col-lg-4 mb-4">
+                            <div key={product.id}className="col-12 col-md-6 col-lg-4 mb-4">
                                 <div className="card">
                                     <img className="card-img-top" src={product.thumbnail} alt={product.nombre}></img>
                                     <div className="card-body">
